@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Купить VLESS/Outline — Тарифы и отзывы</title>
+    <meta name="description" content="Выберите тариф VLESS/Outline и оформите покупку через Telegram-бота. Честные цены, мгновенная активация." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar__brand">
+        <div class="brand__logo">V</div>
+        <div class="brand__name">VLESS VPN</div>
+      </div>
+      <nav class="sidebar__nav">
+        <a href="index.html" class="nav__link">Главная</a>
+        <a href="buy.html" class="nav__link nav__link--active">Купить</a>
+        <a href="guide.html" class="nav__link">Инструкции</a>
+        <a href="support.html" class="nav__link">Поддержка</a>
+      </nav>
+      <div class="sidebar__footer">
+        <a href="https://t.me/your_project_channel" target="_blank" rel="noopener" class="sidebar__cta">Перейти в Telegram</a>
+        <p class="sidebar__copy">© 2025 VLESS VPN</p>
+      </div>
+    </aside>
+
+    <div class="overlay" id="overlay"></div>
+
+    <header class="topbar">
+      <button class="hamburger" id="hamburger" aria-label="Открыть меню" aria-controls="sidebar" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <a class="topbar__brand" href="index.html">VLESS VPN</a>
+      <a class="topbar__cta" href="https://t.me/RUoutlineVPN_bot" target="_blank" rel="noopener">Купить в боте</a>
+    </header>
+
+    <main class="content">
+      <section class="pricing">
+        <h1>Тарифы</h1>
+        <div class="pricing__grid">
+          <article class="plan">
+            <h3>Старт</h3>
+            <img src="assets/img/plan-start.jpg" alt="Изображение тарифа Старт" />
+            <p class="plan__price"><span>249</span> ₽ / 30 дней</p>
+            <ul>
+              <li>Скорость до 100 Мбит/с</li>
+              <li>1 устройство</li>
+              <li>VLESS/Outline</li>
+            </ul>
+            <a class="btn btn--primary btn--block" href="https://t.me/RUoutlineVPN_bot" target="_blank" rel="noopener">Оформить</a>
+          </article>
+          <article class="plan plan--popular">
+            <div class="plan__badge">Хит</div>
+            <h3>Оптимум</h3>
+            <img src="assets/img/plan-optimum.jpg" alt="Изображение тарифа Оптимум" />
+            <p class="plan__price"><span>399</span> ₽ / 30 дней</p>
+            <ul>
+              <li>Скорость до 300 Мбит/с</li>
+              <li>До 3 устройств</li>
+              <li>Приоритетная поддержка</li>
+            </ul>
+            <a class="btn btn--primary btn--block" href="https://t.me/RUoutlineVPN_bot" target="_blank" rel="noopener">Оформить</a>
+          </article>
+          <article class="plan">
+            <h3>Про</h3>
+            <img src="assets/img/plan-pro.jpg" alt="Изображение тарифа Про" />
+            <p class="plan__price"><span>699</span> ₽ / 30 дней</p>
+            <ul>
+              <li>Максимальная скорость</li>
+              <li>До 5 устройств</li>
+              <li>Расширенные локации</li>
+            </ul>
+            <a class="btn btn--primary btn--block" href="https://t.me/RUoutlineVPN_bot" target="_blank" rel="noopener">Оформить</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <h2>Отзывы</h2>
+        <p class="img-note">Чтобы отобразились изображения тарифов: загрузите файлы `plan-start.jpg`, `plan-optimum.jpg`, `plan-pro.jpg` в папку `assets/img/`.</p>
+
+        <div id="reviewsList" class="reviews__list"></div>
+
+        <form id="reviewsForm" class="reviews-form" autocomplete="off">
+          <label for="reviewAuthor">Ваше имя</label>
+          <input id="reviewAuthor" name="author" type="text" placeholder="Например, Анна" required />
+
+          <label for="reviewText">Ваш отзыв</label>
+          <div class="row">
+            <textarea id="reviewText" name="text" placeholder="Коротко опишите ваш опыт" required></textarea>
+            <button class="btn btn--primary" type="submit">Оставить отзыв</button>
+          </div>
+          <p class="img-note">Примечание: отзывы сохраняются только в вашем браузере и видны только вам.</p>
+        </form>
+      </section>
+    </main>
+
+    <a href="https://t.me/your_project_channel" target="_blank" rel="noopener" class="tg-float" aria-label="Открыть Telegram канал">✈️</a>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+  </html>
+
+
