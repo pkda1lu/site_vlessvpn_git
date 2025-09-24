@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
-    <meta http-equiv="refresh" content="1; url=https://t.me/your_support_account" />
+    <meta http-equiv="refresh" content="1; url=https://t.me/tpoutline" />
   </head>
   <body>
     <aside class="sidebar" id="sidebar">
@@ -25,7 +25,7 @@
         <a href="support.html" class="nav__link nav__link--active">Поддержка</a>
       </nav>
       <div class="sidebar__footer">
-        <a href="https://t.me/your_project_channel" target="_blank" rel="noopener" class="sidebar__cta">Перейти в Telegram</a>
+        <a href="https://t.me/vless_outline_channel" target="_blank" rel="noopener" class="sidebar__cta">Перейти в Telegram</a>
         <p class="sidebar__copy">© 2025 VLESS VPN</p>
       </div>
     </aside>
@@ -45,14 +45,58 @@
         <h1>Поддержка</h1>
         <p>Секунду... Перенаправляем вас в Telegram поддержку.</p>
         <p>Если перенаправление не произошло, нажмите:
-          <a class="btn btn--primary" href="https://t.me/your_support_account" target="_blank" rel="noopener">Открыть поддержку</a>
+          <a class="btn btn--primary" href="https://t.me/tpoutline" target="_blank" rel="noopener">Открыть поддержку</a>
         </p>
       </section>
     </main>
 
-    <a href="https://t.me/your_project_channel" target="_blank" rel="noopener" class="tg-float" aria-label="Открыть Telegram канал">✈️</a>
+    <a href="https://t.me/vless_outline_channel" target="_blank" rel="noopener" class="tg-float" aria-label="Открыть Telegram канал">✈️</a>
 
     <script src="assets/js/main.js"></script>
+
+    <footer class="legal-disclaimer">
+      <p class="legal-disclaimer__text">
+        Данный веб-сайт является исключительно информационной страницей с коммерческим предложением услуг. 
+        Сайт не содержит принуждения к совершению покупки и не осуществляет навязывание товаров или услуг. 
+        Потребитель имеет полное право отказаться от предложения без каких-либо последствий. 
+        Представленная информация носит ознакомительный характер и не является публичной офертой в соответствии со ст. 437 ГК РФ.
+      </p>
+    </footer>
+
+    <style>
+      .legal-disclaimer {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 20px 24px;
+        margin: 40px auto 24px;
+        max-width: 1100px;
+        text-align: center;
+      }
+      
+      .legal-disclaimer__text {
+        font-size: 12px;
+        line-height: 1.5;
+        color: var(--muted);
+        margin: 0;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      @media (max-width: 768px) {
+        .legal-disclaimer {
+          padding: 16px 20px;
+          margin: 20px 16px 24px;
+          border-radius: 12px;
+        }
+        
+        .legal-disclaimer__text {
+          font-size: 11px;
+          line-height: 1.4;
+        }
+      }
+    </style>
   </body>
   </html>
 
